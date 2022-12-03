@@ -1,0 +1,9 @@
+package bytebankCliente;
+
+public class TestaValores {
+	public static void main(String[] args) {
+		Conta conta = new Conta(12, 59);
+		
+		conta.setAgencia(-50);
+	}
+}

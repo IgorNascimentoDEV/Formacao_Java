@@ -1,0 +1,18 @@
+package bytebank;
+
+public class testeReferencia {
+	public static void main(String[] args) {
+		Conta testeConta = new Conta();
+		
+		testeConta.saldo = 300;
+		System.out.println("O saldo da conta teste e: "+ testeConta.saldo);
+	
+		Conta testeSegundaConta = testeConta; 
+		
+		System.out.println("O saldo do segundo teste e: "+ testeSegundaConta.saldo);
+		
+		if(testeConta == testeSegundaConta) {
+			System.out.println("são a mesma conta");
+		}
+	}
+}

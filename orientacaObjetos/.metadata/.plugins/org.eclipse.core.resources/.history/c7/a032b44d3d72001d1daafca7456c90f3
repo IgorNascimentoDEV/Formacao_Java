@@ -1,0 +1,16 @@
+package bytebank;
+
+public class TestaMetodo {
+	
+	public static void main(String[] args) {
+		Conta continha = new Conta();
+		
+		continha.saldo = 100;
+		continha.depositar(100);
+		System.out.println(continha.saldo);
+		
+		
+	    continha.sacar(20);
+		System.out.println(continha.saldo);
+	}
+}

@@ -1,0 +1,17 @@
+package bytebankCliente;
+
+public class TesteBanco {
+	public static void main(String[] args) {
+		Cliente igor = new Cliente();
+		
+		igor.nome = "Igor";
+		igor.cpf = "123456789";
+		igor.profissao = "developer";
+		
+		Conta contaDoIgor = new Conta();
+		
+		contaDoIgor.depositar(100);
+		
+		System.out.println("igor teste");
+	}
+}

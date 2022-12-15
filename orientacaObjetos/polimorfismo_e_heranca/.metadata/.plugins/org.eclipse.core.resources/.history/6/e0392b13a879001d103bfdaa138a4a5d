@@ -1,0 +1,10 @@
+package heranca_java;
+
+public class TestaReferencia {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

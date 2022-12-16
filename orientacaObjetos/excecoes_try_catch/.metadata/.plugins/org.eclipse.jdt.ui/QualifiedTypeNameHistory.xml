@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="bytebank_heranca_conta.ContaCorrente"/>
+    <fullyQualifiedTypeName name="bytebank_heranca_conta.ContaPoupaca"/>
+    <fullyQualifiedTypeName name="heranca_java.Gerente"/>
+    <fullyQualifiedTypeName name="heranca_java.SistemaInterno"/>
+    <fullyQualifiedTypeName name="heranca_java.Administrador"/>
+    <fullyQualifiedTypeName name="heranca_java.FuncionarioAutenticavel"/>
+</qualifiedTypeNameHistroy>

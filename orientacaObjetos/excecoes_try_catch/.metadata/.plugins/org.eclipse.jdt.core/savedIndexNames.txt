@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\Users\WTINFO PC\Desktop\orientacaObjetos\.metadata\.plugins\org.eclipse.jdt.core
+1910466854.index
+1865797976.index

@@ -1,0 +1,10 @@
+package heranca_java;
+
+public class TestaFuncionario {
+	public static void main(String[] args) {
+		Funcionario igor = new Funcionario();
+		igor.setNome("Igor Nascimento");
+		igor.setCpf("78945612386");
+		igor.setSalario(4000.00);
+	}
+}

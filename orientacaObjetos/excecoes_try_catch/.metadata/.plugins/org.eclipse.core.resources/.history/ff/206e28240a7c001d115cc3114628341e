@@ -1,0 +1,19 @@
+package heranca_java;
+
+public class Gerente extends Funcionario{
+
+	
+	
+	public Gerente() {
+		
+	}
+	
+	//metodos
+	
+	public double getBonificacao() {
+		return super.getSalario();
+	}
+	
+	
+	
+}

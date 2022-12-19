@@ -1,0 +1,1 @@
+moduleSearchIndex = [{"l":"bytebank_heranca_conta"}];updateSearchResults();

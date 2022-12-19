@@ -1,0 +1,10 @@
+package heranca_java;
+
+public class Administrador extends  Autenticavel{
+
+	@Override
+	public double getBonificacao() {
+		return 50;
+	}
+
+}

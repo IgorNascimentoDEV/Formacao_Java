@@ -1,0 +1,12 @@
+package heranca_java;
+
+public class ControleBomificacao {
+	
+	private double soma,
+	
+	public void registra(Gerente g) {
+		double boni = g.getBonificacao();
+		this.soma = soma + boni;
+	}
+	
+}

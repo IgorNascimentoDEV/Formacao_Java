@@ -1,0 +1,9 @@
+package heranca_java;
+
+public class EditorDeVideo extends Funcionario{
+	
+	public double getBonificacao() {
+		System.out.println("bonifica editor");
+		return super.getBonificacao() + 100;
+	}
+}

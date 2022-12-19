@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="bytebank_heranca_conta.ContaPoupaca"/>
+    <fullyQualifiedTypeName name="heranca_java.Gerente"/>
+    <fullyQualifiedTypeName name="heranca_java.SistemaInterno"/>
+    <fullyQualifiedTypeName name="heranca_java.Administrador"/>
+    <fullyQualifiedTypeName name="heranca_java.FuncionarioAutenticavel"/>
+    <fullyQualifiedTypeName name="javaPilha.MinhaExcecao"/>
+    <fullyQualifiedTypeName name="bytebank_heranca_conta.SaldoInsuficienteException"/>
+    <fullyQualifiedTypeName name="bytebank_heranca_conta.ContaCorrente"/>
+    <fullyQualifiedTypeName name="javaPilha.Conexao"/>
+    <fullyQualifiedTypeName name="modelo.ContaCorrente"/>
+    <fullyQualifiedTypeName name="modelo.ContaPoupaca"/>
+    <fullyQualifiedTypeName name="modelo.SeguroDeVida"/>
+    <fullyQualifiedTypeName name="modelo.CalculadorDeImposto"/>
+    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.ContaPoupaca"/>
+    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.SeguroDeVida"/>
+    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.CalculadorDeImposto"/>
+    <fullyQualifiedTypeName name="modelo.Conta"/>
+    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.ContaCorrente"/>
+    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Conta"/>
+</qualifiedTypeNameHistroy>

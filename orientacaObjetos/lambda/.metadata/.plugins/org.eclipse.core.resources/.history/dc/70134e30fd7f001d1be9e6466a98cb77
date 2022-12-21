@@ -1,0 +1,24 @@
+package br.com.bytebank.banco.teste;
+
+import br.com.bytebank.banco.modelo.*;
+
+public class TesteArrayReferencias {
+
+	public static void main(String[] args) {
+		
+		ContaCorrente[] contas = new ContaCorrente[10];
+		ContaCorrente cc1 = new ContaCorrente(12, 100);
+		contas[0] = cc1;
+		
+		ContaCorrente cc2 = new ContaCorrente(13, 101);
+		contas[1] = cc2;
+		
+		System.out.println(contas[0]);
+		
+		
+//		for(ContaCorrente item: contas) {
+//			System.out.println(item);
+//		}
+		
+	}
+}

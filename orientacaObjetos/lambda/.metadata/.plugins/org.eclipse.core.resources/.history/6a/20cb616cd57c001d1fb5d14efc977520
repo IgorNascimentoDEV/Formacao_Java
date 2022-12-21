@@ -1,0 +1,5 @@
+package javaPilha;
+
+public class MinhaExcecao extends RuntimeException{
+	
+}

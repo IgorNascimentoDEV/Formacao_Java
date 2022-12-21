@@ -1,0 +1,13 @@
+package bytebank_heranca_conta;
+
+public class TesteSaca {
+
+	public static void main(String[] args) {
+		Conta conta = new ContaCorrente(222, 333);
+		
+		conta.depositar(200);
+		conta.sacar(200);
+
+	}
+
+}

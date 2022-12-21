@@ -1,0 +1,12 @@
+package br.com.bytebank.banco.teste.util;
+
+public class TestaOutrosWrappers {
+
+	public static void main(String[] args) {
+		
+		Integer idadeRef =  Integer.valueOf(29);
+		System.out.println(idadeRef.doubleValue());
+		
+		
+	}
+}

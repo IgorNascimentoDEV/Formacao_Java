@@ -1,0 +1,11 @@
+package br.com.alura.bytebank;
+
+public class TesteBlibioteca {
+
+	public static void main(String[] args) {
+		
+		Conta c = new ContaCorrente(369, 963);
+
+	}
+
+}

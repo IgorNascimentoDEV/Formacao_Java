@@ -1,0 +1,25 @@
+package br.com.bytebank.banco.teste;
+
+import br.com.bytebank.banco.modelo.*;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		
+//		System.out.println("c");
+//		System.out.println(true);
+//		System.out.println(3);
+		Cliente igor = new Cliente();
+		igor.setNome("Igor Nascimento");
+		Conta cc = new ContaCorrente(123, 225);
+		cc.setTitular(igor);
+		
+		Conta cp = new ContaPoupanca(966, 699);
+		cp.setTitular(igor);
+		
+		System.out.println(cc.toString());
+		System.out.println(cp.toString());
+
+	}
+
+}

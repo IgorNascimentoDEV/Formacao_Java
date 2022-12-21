@@ -1,0 +1,45 @@
+package br.com.bytebank.banco.teste.util;
+
+import java.util.ArrayList;
+
+import br.com.bytebank.banco.modelo.Conta;
+import br.com.bytebank.banco.modelo.ContaCorrente;
+
+public class TesteArrayListEquals {
+
+	public static void main(String[] args) {
+		
+		Conta cc1 = new ContaCorrente(123, 456);
+		Conta cc2 = new ContaCorrente(183, 458);
+		
+		boolean igual = cc1.ehIgual(cc2);
+		System.out.println(igual);
+		
+		
+//		ArrayList<Conta> lista = new ArrayList<Conta>();
+//		
+//		Conta cc = new ContaCorrente(123, 456);
+//		Conta cc2 = new ContaCorrente(183, 458);
+//		Conta cc3 = new ContaCorrente(33, 46);
+//		Conta cc4 = new ContaCorrente(13, 98);
+//		
+//		lista.add(cc);
+//		lista.add(cc2);
+//		lista.add(cc3);
+//		lista.add(cc4);
+//
+//
+//		
+//		boolean existe = lista.contains(cc2);
+//		System.out.println(existe);
+//		
+//		for(Conta conta: lista) {
+//			if(conta.ehIgual(cc3)) {
+//				System.out.println("tenho essa conta");
+//			}else {
+//				System.out.println("Nao tenho essa conta");
+//			}
+//		}
+	}
+	
+}
